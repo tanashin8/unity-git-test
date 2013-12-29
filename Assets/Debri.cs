@@ -20,6 +20,8 @@ public class Debri : MonoBehaviour {
 		transform.LookAt(target);
 		// 宇宙ゴミを0から360の範囲でZ軸を中心に回転させておく
 		transform.Rotate(new Vector3(0, 0, Random.Range(0, 360)), Space.World);
+
+		Debug.Log ("Hello GitHub!");
 	}
 	
 	void Update () {
